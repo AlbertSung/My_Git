@@ -82,7 +82,8 @@ int main(void)
   {
     HAL_GPIO_TogglePin(LED2_GPIO_PORT, LED2_PIN);
     /* Insert delay 100 ms */
-    HAL_Delay(100);
+//  HAL_Delay(100);
+    HAL_Delay(500);		// replaced for Git testing
   }
 }
 
